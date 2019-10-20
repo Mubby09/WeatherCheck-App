@@ -1,0 +1,74 @@
+@import url("https://fonts.googleapis.com/css?family=ZCOOL+XiaoWei&display=swap");
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+body {
+  overflow: scroll;
+}
+.wrapper {
+  background: #333;
+  margin: auto;
+  text-align: center;
+  color: aliceblue;
+  font-size: 2rem;
+  font-family: "ZCOOL XiaoWei", serif;
+}
+
+.container {
+  margin: auto;
+  max-width: 1100px;
+  padding: 0.2rem;
+  overflow: hidden;
+}
+
+.form {
+  text-align: center;
+  background: darkturquoise;
+  height: 20vh;
+  justify-content: center;
+  align-content: center;
+  align-items: center;
+  font-size: 1rem;
+  font-weight: bold;
+}
+
+/* .weather_result {
+  text-align: center;
+  background: darkturquoise; 
+  height: 70vh;
+  justify-content: center;
+  align-content: center;
+  align-items: center;
+  font-size: 1rem;
+  font-weight: bold;
+  padding: 70px;
+} */
+
+button {
+  background: burlywood;
+  color: black;
+  border-radius: 5px;
+  padding: 10px;
+  margin-top: 20px;
+  font-weight: bold;
+}
+
+button:hover {
+  transition: all 0.5s;
+  background: gray;
+  color: black;
+}
+
+input[type="text"] {
+  border-radius: 10px;
+  padding: 2px;
+  margin: 2px;
+}
+
+form {
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
