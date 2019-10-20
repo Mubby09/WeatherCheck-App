@@ -16,7 +16,8 @@ const style = {
   alignItems: "center",
   fontSize: "1.7rem",
   fontWeight: "bold",
-  padding: 70
+  padding: 70,
+  fontFamily: "ZCOOL XiaoWei"
 };
 
 class Weather extends React.Component {
