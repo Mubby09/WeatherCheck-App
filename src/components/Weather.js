@@ -9,7 +9,6 @@ const style = {
   color: "black",
   // className="weather_result"
   textAlign: "center",
-  // background: " darkturquoise",
   height: "100vh",
   justifyContent: "center",
   alignContent: "center",

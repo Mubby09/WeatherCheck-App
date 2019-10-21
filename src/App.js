@@ -3,7 +3,6 @@ import Title from "./components/Title";
 import Form from "./components/Form";
 import Weather from "./components/Weather";
 import "bootstrap/dist/css/bootstrap.min.css";
-//import "./components/img";
 import "./App.css";
 
 const key = "c2b9eaac541af9d4f01b1f0100f028f4";
