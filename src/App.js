@@ -32,12 +32,17 @@ class App extends Component {
         city: data.name,
         country: data.sys.country,
         humidity: data.main.humidity,
-        description: data.weather[0].description,
+        description: data.weather[0].main,
         error: ""
       });
     } else {
       console.log("Give me a CITY and a COUNTRY");
       this.setState({
+        temperature: undefined,
+        city: undefined,
+        country: undefined,
+        humidity: undefined,
+        description: undefined,
         error: "Please give me a CITY and COUNTRY...."
       });
     }

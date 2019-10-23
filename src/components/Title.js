@@ -5,8 +5,11 @@ class Title extends React.Component {
     return (
       <div className="wrapper bg-dark">
         <div className="container">
-          <h1>Weather Finder</h1>
-          <p>Find out temperature, conditions and more</p>
+          <h1 className="text-success">
+            <i>Weather Finder</i>
+          </h1>
+          <hr />
+          <h5>Find out temperature, conditions and more</h5>
         </div>
       </div>
     );
