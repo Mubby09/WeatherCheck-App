@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css?family=ZCOOL+XiaoWei&display=swap");
+@import url("https://fonts.googleapis.com/css?family=Comfortaa&display=swap");
 
 * {
   padding: 0;
@@ -14,7 +14,7 @@ body {
   text-align: center;
   color: aliceblue;
   font-size: 2.1rem;
-  font-family: "ZCOOL XiaoWei", serif;
+  font-family: "Comfortaa", cursive;
 }
 
 .container {

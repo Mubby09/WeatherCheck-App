@@ -1,5 +1,6 @@
 import React from "react";
 import Background from "./img/background3.jpg";
+import "bootstrap/dist/css/bootstrap.css";
 
 const style = {
   backgroundImage: `url(${Background})`,
@@ -32,17 +33,33 @@ class Weather extends React.Component {
 
     return (
       <div style={style}>
+        {" "}
         <div className="container">
           {city && country && (
-            <p>
+            <p className="card mb-3 p-5 bg-success">
               LOCATION : {city}, {country}{" "}
             </p>
           )}
-
-          {temperature && <p>TEMPERATURE : {temperature} </p>}
-          {humidity && <p>HUMIDITY : {humidity} </p>}
-          {description && <p>DESCRIPTION : {description} </p>}
-          {error && <p>ERROR: {error}</p>}
+          <hr />{" "}
+          {temperature && (
+            <p className="card mb-3 p-5 bg-info">
+              TEMPERATURE : {temperature}{" "}
+            </p>
+          )}
+          <hr />{" "}
+          {humidity && (
+            <p className="card mb-3 p-5 bg-light">HUMIDITY : {humidity} </p>
+          )}{" "}
+          <hr />{" "}
+          {description && (
+            <p className="card mb-3 p-5 bg-primary">
+              DESCRIPTION : {description}{" "}
+            </p>
+          )}{" "}
+          <hr />
+          {error && (
+            <p className="card mb-3 p-5 bg-danger">ERROR: {error}</p>
+          )}{" "}
         </div>
       </div>
     );
