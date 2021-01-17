@@ -51,7 +51,7 @@ class App extends Component {
         wind: undefined,
         sunrise: undefined,
         sunset: undefined,
-        error: "Please give me a CITY and COUNTRY...."
+        error: "Please give me a valid CITY and COUNTRY...."
       });
     }
   };
