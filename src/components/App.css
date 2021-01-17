@@ -5,9 +5,11 @@
   margin: 0;
   box-sizing: border-box;
 }
+
 body {
   overflow: scroll;
 }
+
 .wrapper {
   background: #333;
   margin: auto;
@@ -27,7 +29,7 @@ body {
 .form {
   text-align: center;
   background: darkturquoise;
-  height: 20vh;
+  height: 25vh;
   justify-content: center;
   align-content: center;
   align-items: center;

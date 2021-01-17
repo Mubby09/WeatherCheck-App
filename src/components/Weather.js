@@ -10,7 +10,7 @@ const style = {
   color: "black",
   // className="weather_result"
   textAlign: "center",
-  height: "85vh",
+  height: "90vh",
   justifyContent: "center",
   alignContent: "center",
   alignItems: "center",
@@ -26,8 +26,10 @@ class Weather extends React.Component {
       city,
       country,
       temperature,
+      feels_like,
       humidity,
       description,
+      wind,
       error
     } = this.props;
 
@@ -38,28 +40,47 @@ class Weather extends React.Component {
           <div className="container">
             {city && country && (
               <p className="card mb-2 p-2 bg-success">
-                LOCATION : {city}, {country}{" "}
+                <i className="fa fa-compass fa-2x"></i> LOCATION : {city},{" "}
+                {country}{" "}
               </p>
             )}
             <hr />{" "}
             {temperature && (
               <p className="card mb-2 p-2 bg-info">
-                TEMPERATURE : {temperature}{" "}
+                <i class="fa fa-cloud fa-2x"></i>TEMPERATURE : {temperature}{" "}
+                DEGREES CELCIUS
               </p>
             )}
             <hr />{" "}
-            {humidity && (
-              <p className="card mb-2 p-2 bg-light">HUMIDITY : {humidity} </p>
-            )}{" "}
+            {feels_like && (
+              <p className="card mb-2 p-2 bg-info">
+                <i class="fa fa-cloud fa-2x"></i>FEELS_LIKE: {feels_like}{" "}
+                DEGREES CELCIUS
+              </p>
+            )}
             <hr />{" "}
             {description && (
               <p className="card mb-2 p-2 bg-primary">
-                DESCRIPTION : {description}{" "}
+                <i className="fa fa-tag fa-2x"></i> DESCRIPTION : {description}{" "}
               </p>
             )}{" "}
             <hr />
+            {humidity && (
+              <p className="card mb-2 p-2 bg-light">
+                <i className="fa fa-dewpoint"></i> HUMIDITY : {humidity} %
+              </p>
+            )}{" "}
+            {wind && (
+              <p className="card mb-2 p-2 bg-secondary">
+                <i class="fa fa-wind"></i> WIND-SPEED : {wind} MPH
+              </p>
+            )}{" "}
+            <hr />{" "}
             {error && (
-              <p className="card mb-3 p-5 bg-danger">ERROR: {error}</p>
+              <p className="card mb-3 p-5 bg-danger">
+                <i className="fa fa-exclamation-triangle fa-2x"></i>ERROR:{" "}
+                {error}
+              </p>
             )}{" "}
           </div>
         </div>
