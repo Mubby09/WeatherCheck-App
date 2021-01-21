@@ -26,6 +26,24 @@ class Form extends React.Component {
             <button className="btn btn-outline-primary" type="submit">
               CHECK WEATHER
             </button>
+            <a
+              href="https://mylocationfinderapp.netlify.app/"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="btn btn-outline-danger"
+              type="submit"
+            >
+              LOCATION FNDER APP
+            </a>
+            <a
+              href="https://worddefinition.netlify.app/"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="btn btn-outline-success"
+              type="submit"
+            >
+              WORD DEFINITION APPLICATION
+            </a>
           </form>
         </div>
       </div>
