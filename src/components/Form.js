@@ -33,7 +33,7 @@ class Form extends React.Component {
               className="btn btn-outline-danger a-class"
               type="submit"
             >
-              LOCATION FNDER APP
+              LOCATION FINDER APP
             </a>
             <a
               href="https://worddefinition.netlify.app/"
