@@ -23,14 +23,14 @@ class Form extends React.Component {
             />
             <br />
             <hr />
-            <button className="btn btn-outline-primary" type="submit">
+            <button className="btn btn-outline-primary a-class" type="submit">
               CHECK WEATHER
             </button>
             <a
               href="https://mylocationfinderapp.netlify.app/"
               target="_blank"
               rel="noopener noreferrer"
-              className="btn btn-outline-danger"
+              className="btn btn-outline-danger a-class"
               type="submit"
             >
               LOCATION FNDER APP
@@ -39,7 +39,7 @@ class Form extends React.Component {
               href="https://worddefinition.netlify.app/"
               target="_blank"
               rel="noopener noreferrer"
-              className="btn btn-outline-success"
+              className="btn btn-outline-success a-class"
               type="submit"
             >
               WORD DEFINITION APPLICATION

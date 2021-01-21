@@ -41,7 +41,8 @@ a {
   margin-left: 20px;
 }
 
-button {
+button,
+.a-class {
   background: burlywood;
   color: black;
   border-radius: 5px;
